@@ -2,7 +2,7 @@ FROM ghcr.io/linuxserver/baseimage-alpine:3.15
 MAINTAINER rix1337
 
 # build tools
-RUN apk add --no-cache build-base python3-dev
+RUN apk add --no-cache build-base python3-dev py3-pip
 
 # dependencies
 RUN pip3 install --upgrade pip \

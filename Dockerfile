@@ -16,6 +16,7 @@ VOLUME /config
 EXPOSE 2808
 
 # Set environment variables.
+ENV PYTHONUNBUFFERED=1
 ENV VERSION=""
 
 # Optionally set desired version for the build
